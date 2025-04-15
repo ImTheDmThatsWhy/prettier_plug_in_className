@@ -2,7 +2,7 @@
 const { parsers: javascriptParsers } = require("prettier/parser-babel");
 
 function classNameFixer(text) {
-    // Identifies incorrect use of class including use of space between class and name
+    // Identifies incorrect use of class including use of space between class and name and replaces it with the correct className
     const incorrectPattern = / (class|class\s*name)=/gi;
     return text.replace(incorrectPattern, " className=");
 }
