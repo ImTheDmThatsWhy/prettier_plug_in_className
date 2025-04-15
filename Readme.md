@@ -23,6 +23,8 @@ npm install classname_corrector_react
   "plugins": ["classname_corrector_react"]
 }
 ```
+This code is to basically tell prettier to use the installed module.
+
 5. To get the module to work type the code below into the terminal:
 ```
 npx prettier . --write
