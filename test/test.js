@@ -1,0 +1,9 @@
+<div class="class"></div>;
+<div CLASS="CLASS"></div>;
+<div classname="classname"></div>;
+<div ClassName="ClassName"></div>;
+<div Class Name="Class Name"></div>;
+<div class    Name="class   Name"></div>;
+<div deClass="deClass"></div>;
+<div de classname="de classname"></div>;
+<div de class Name="de class Name"></div>;

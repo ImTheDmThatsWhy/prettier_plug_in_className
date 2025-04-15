@@ -1,5 +1,5 @@
 {
-    "name": "classname",
+    "name": "classname_corrector_react",
     "version": "1.0.0",
     "description": "Prettier Plugin",
     "homepage": "https://github.com/ImTheDmThatsWhy/prettier_plug_in_className#readme",
@@ -15,10 +15,9 @@
     "type": "commonjs",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "npx prettier test/test.js"
     },
-    "dependencies": {
-        "prettier": "^3.5.3",
-        "react": "^19.1.0"
+    "devDependencies": {
+        "prettier": "^3.5.3"
     }
 }
