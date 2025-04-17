@@ -32,7 +32,11 @@ npx prettier . --write
 The code above will correct any incorrect versions of className and correct it to the React appropriate version and then save it. 
 
 ## Prettier
-Prettier is a style formatter that helps to maintain code consistency it is required for the module to work
+
+source: 
+Agbo, D.O. (2024). How to Set Up Prettier – Code Formatter. [online] DEV Community. Available at: https://dev.to/shieldstring/how-to-set-up-prettier-code-formatter-4a2f [Accessed 17 Apr. 2025].
+
+Prettier is a style formatter that helps to maintain code consistency (Agbo, 2024) it is required for the module to work. It was chosen as Prettier keeps code format consistent and this module addresses a gap in prettier. Which is in React prettier does not edit className to the correct form which this module fixes to keep className consistent and inline with proper React coding.
 
 Licensing and Ethics:
 
